@@ -1,0 +1,32 @@
+#responsive{
+    color: greenyellow;
+}
+
+#computercode{
+    color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#sample{
+    color: chocolate;
+    font-size: 20px;
+    background-color: burlywood;
+    text-align: end;
+    text-transform: uppercase;
+}
+
+#keyboard{
+    color: darkblue;
+    background-color: brown;
+    text-align: center;
+}
+
+#variables{
+    color: darkseagreen;
+    font-size: 35px;
+    padding-right: 40px;
+}
