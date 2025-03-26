@@ -1,0 +1,27 @@
+.nav{
+    background-color: aqua;
+    text-align: center;
+}
+
+.quien_soy{
+    color: black;
+    background-color: #227d9f;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.sobre_mi{
+    color:black ;
+    background-color:#116b8d ;
+}
+
+.stacks{
+    color: black;
+    background-color: #005a7b;
+}
+
+.imagen-rescalada{
+    width: 200px;
+    height: auto;
+}
