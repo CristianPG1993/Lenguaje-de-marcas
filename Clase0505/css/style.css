@@ -1,0 +1,65 @@
+.encabezado{
+
+    border: 1px red solid;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.logo img{
+
+    width: 100%;
+
+}
+.logo{
+
+    width: 30%;
+    margin-left: 35%;
+}
+
+
+.logo2 img{
+
+    width: 100%;
+
+}
+
+.logo2{
+
+    width: 40%;
+    margin-left: 30%;
+}
+
+.descripcion{
+
+    border: 1px solid lightgray;
+    padding: 2%;
+    font-size: 1.2vw;
+    background-color: #f9f9f9;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ejemplo{
+
+    border: 1px solid lightcyan;
+    padding: 2%;
+    font-size: 1.2vw;
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.ejemplo2{
+
+    border: 1px solid lightgreen;
+    padding: 2%;
+    font-size: 1.2vw;
+    background-color: bisque;
+    width: 50%;
+    margin-left: 25%;
+}
