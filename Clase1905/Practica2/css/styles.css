@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url(../tipografia/WDXLLubrifontTC-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'MiFuente';
+    box-sizing: border-box;
+}
+
+.seccion{
+
+    display: flex;
+    width: 100%;
+
+}
+
+.columna-1{
+
+    width: 25%;
+    padding: 2%;
+    background-color: gray;
+    border: 2px solid black;
+
+}
+
+.columna-1 p{
+
+    margin-top: 4%;
+}
+
+
+
+.columna-2{
+
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(143, 142, 142);
+    border: 2px solid black;
+}
+
+.columna-2 p{
+
+    margin-top: 4%;
+}
+.columna-3{
+
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(165, 164, 164);
+    border: 2px solid black;
+
+}
+
+.columna-3 p{
+
+    margin-top: 4%;
+}
+.columna-4{
+
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(187, 186, 186);
+    border: 2px solid black;
+
+}
+.columna-4 p{
+
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .seccion{
+
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .columna-1,
+    .columna-2,
+    .columna-3,
+    .columna-4{
+
+        width: 50%;
+    
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .seccion{
+
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .columna-1,
+    .columna-2,
+    .columna-3,
+    .columna-4{
+
+        width: 100%;
+    
+    }
+    
+}
+
