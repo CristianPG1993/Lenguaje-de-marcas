@@ -76,13 +76,15 @@
 /* Bloque lateral derecho "Acerca de" */
 .acerca {
     background-color: lightgoldenrodyellow;
-    padding: 3%;
+    padding: 2.5%;
     margin-top: 1%;
+    height: fit-content;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 
 /* Párrafo dentro de "Acerca de" */
 .acerca p {
@@ -110,6 +112,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
+        margin-top: 2%;
     }
 
     /* Lista de menú con espacio lateral */
