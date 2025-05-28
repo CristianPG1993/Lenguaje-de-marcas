@@ -1,0 +1,50 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+/* % */
+
+div{
+
+    width: 50%; /*Ocupa el 50% del contenedor padre*/
+    padding: 10%;
+}
+
+/* rem -> Root em, el elemento raiz <html>*/
+/* 1 rem = 16px -> <html>*/
+
+/*
+- Tamaño de fuentes
+- Espaciado
+- Evitar herencia indeseada
+
+*/
+
+html{
+
+    font-size: 16px;
+}
+
+p{
+
+    font-size: 1.5rem; /*Aumenta el tamaño 16px * 1,5 = 24px */
+}
+
+/*Unidad em -> Relative to Parent*/
+
+div{
+
+    font-size: 16px;
+}
+
+.caja{
+    font-size: 1.5em ; /*1.5 * 16 px = 24px*/
+}
+
+.texto{
+
+    font-size: 1.5em; /*1.5 * 24 = 36px*/
+}

@@ -1,0 +1,158 @@
+/* Importamos la fuente personalizada */
+@font-face {
+    font-family: 'MiFuente';
+    src: url(../tipografia/WDXLLubrifontTC-Regular.ttf);
+}
+
+/* Estilos globales para todos los elementos */
+* {
+    box-sizing: border-box; /* Incluye padding y border en el width total */
+    padding: 0;
+    margin: 0;
+    font-family: 'MiFuente'; /* Aplicamos la fuente personalizada */
+}
+
+/* Encabezado superior */
+.inicio {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(21, 134, 187); /* Azul */
+    color: white;
+}
+
+/* Contenedor principal con layout horizontal en escritorio */
+.seccion {
+    display: flex; /* Pone elementos hijos en fila */
+    width: 100%;
+    background-color: antiquewhite; /* Fondo claro */
+}
+
+/* Contenedor del menú lateral */
+.menu {
+    width: 22.5%; /* Aproximadamente un 20% de la pantalla */
+    margin-top: 1%;
+}
+
+/* Lista del menú */
+.menu ul {
+    list-style: none; /* Quita viñetas */
+    padding: 2%;
+    display: flex;
+    flex-direction: column; /* Ordena los botones verticalmente */
+    gap: 10px; /* Espacio entre botones */
+}
+
+/* Estilo de cada botón del menú */
+.menu li {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(136, 223, 250); /* Azul claro */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+/* Efecto al pasar el ratón por encima */
+.menu li:hover {
+    background-color: black;
+    color: rgb(136, 223, 250); /* Azul claro en el texto */
+    transition: 0.6s;
+}
+
+/* Contenido principal (centro) */
+.cuerpo {
+    width: 70%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+/* Texto del contenido principal */
+.cuerpo p {
+    margin-top: 25px;
+    text-align: justify;
+}
+
+/* Bloque lateral derecho "Acerca de" */
+.acerca {
+    background-color: lightgoldenrodyellow;
+    padding: 3%;
+    margin-top: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Párrafo dentro de "Acerca de" */
+.acerca p {
+    margin-top: 20px;
+}
+
+/* Pie de página */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(21, 134, 187); /* Azul */
+    color: white;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+
+    /* Sección principal cambia de fila a columna */
+    .seccion {
+        flex-direction: column;
+    }
+
+    /* Menú ocupa todo el ancho */
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Lista de menú con espacio lateral */
+    .menu ul {
+        padding: 0 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* Botones del menú ocupan todo el ancho visible */
+    .menu li {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* Contenido principal ocupa todo el ancho */
+    .cuerpo {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    /* Alineación del título del contenido */
+    .cuerpo h2 {
+        text-align: left;
+    }
+
+    /* Alineación del párrafo en contenido */
+    .cuerpo p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    /* Bloque "Acerca de" en ancho completo */
+    .acerca {
+        width: 100%;
+        padding: 20px 10px;
+        margin-bottom: 2%;
+    }
+
+    /* Tamaño más pequeño para el footer */
+    .footer {
+        font-size: 0.9rem;
+    }
+}
