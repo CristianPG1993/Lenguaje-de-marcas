@@ -79,7 +79,6 @@ function calcularDiaSemana3(){
 
 function calcularDiaSemana4(){
     let num = parseInt(document.getElementById("numero_ejercicio4").value);
-
     switch (num) {
         case 1:
             alert("El día 1 de la semana es Lunes");
