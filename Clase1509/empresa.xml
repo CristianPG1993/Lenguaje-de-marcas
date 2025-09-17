@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado id="E001">
+        <nombre>Juan Pérez</nombre>
+        <apellido>Pérez</apellido>
+        <telefono>555-1234</telefono>
+        <direccion>
+            <ciudad>Ciudad Ejemplo</ciudad>
+            <estado>Estado Ejemplo</estado>
+            <zip>12345</zip>
+        </direccion>
+    </empleado>
+    <empleado id="E002">
+        <nombre>María Gómez</nombre>
+        <apellido>Gómez</apellido>
+        <telefono>555-5678</telefono>
+        <direccion>
+            <ciudad>Otra Ciudad</ciudad>
+            <estado>Otro Estado</estado>
+            <zip>67890</zip>
+        </direccion>
+    </empleado>
+    <empleado id="E003">
+        <nombre>Carlos López</nombre>
+        <apellido>López</apellido>
+        <telefono>555-8765</telefono>
+        <direccion>
+            <ciudad>Tercera Ciudad</ciudad>
+            <estado>Tercer Estado</estado>
+            <zip>54321</zip>
+        </direccion>
+    </empleado>
+</empresa>

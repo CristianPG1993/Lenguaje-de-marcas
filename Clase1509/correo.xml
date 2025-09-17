@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+    <correo id="1AAA">
+        <de>cristian.p.g@gmail.com</de>
+        <para>destinatario@example.com</para>
+        <cc>copia@example.com</cc>
+        <cco></cco>
+        <asunto>Correo de prueba</asunto>
+        <mensaje>Este es un mensaje de prueba.</mensaje>
+        <importanciaAlta></importanciaAlta>
+        
+    </correo>
+    <correo id="1AAB">
+        <de>cristian.p.g@gmail.com</de>
+        <para>destinatario@example.com</para>
+        <cc>copia@example.com</cc>
+        <cco></cco>
+        <asunto>Correo de prueba</asunto>
+        <mensaje>Este es un mensaje de prueba.</mensaje>
+    </correo>
+    <correo id="1AAC">
+        <de>cristian.p.g@gmail.com</de>
+        <para>destinatario@example.com</para>
+        <cc>copia@example.com</cc>
+        <cco></cco>
+        <asunto>Correo de prueba</asunto>
+        <mensaje>Este es un mensaje de prueba.</mensaje>
+    </correo>
+    
+</email>
