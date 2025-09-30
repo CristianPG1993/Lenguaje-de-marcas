@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="marcadores.xsd">
+    <pagina>
+        <nombre>AbrirLlave</nombre>
+        <descripcion>Tutorial sobre cómo abrir una llave en programación.</descripcion>
+        <url>http://www.ejemplo.com/abrirllave</url>
+    </pagina>
+    <pagina>
+        <nombre>CerrarLlave</nombre>
+        <descripcion>Guía para cerrar una llave correctamente.</descripcion>
+        <url>http://www.ejemplo.com/cerrarrollave</url>
+    </pagina>
+    <pagina>
+        <nombre>Google</nombre>
+        <descripcion>Buscador web más utilizado.</descripcion>
+        <url>http://www.google.com</url>
+    </pagina>
+    <pagina>
+        <nombre>Wikipedia</nombre>
+        <descripcion>Enciclopedia libre y colaborativa.</descripcion>
+        <link>http://www.wikipedia.org</link>
+    </pagina>
+</marcadores>

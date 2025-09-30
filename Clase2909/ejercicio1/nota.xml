@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE nota SYSTEM "nota.dtd">-->
+<nota xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="nota.xsd">
+    <de>Juan Pérez</de>
+    <para>Pepe</para>
+    <asunto>Reunión</asunto>
+    <cuerpo>Hola Pepe, ¿podemos reunirnos mañana a las 10am?</cuerpo>
+</nota>
