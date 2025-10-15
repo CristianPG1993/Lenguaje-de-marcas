@@ -1,0 +1,78 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="club">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="entrenador" minOccurs="0" maxOccurs="2"/>
+                <xs:element ref="entrenadora" minOccurs="0" maxOccurs="2"/>
+                <xs:element ref="jugadores" minOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="entrenador">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="longitudNombre"/>
+                <xs:element name="apellido" type="longitudNombre" minOccurs="2" maxOccurs="2"/>
+                <xs:element name="dni" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="entrenadora">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="longitudNombre" />
+                <xs:element name="apellido" type="longitudNombre" minOccurs="2" maxOccurs="2"/>
+                <xs:element name="dni" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="jugadores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="jugador" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="jugadora" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="jugador">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="longitudNombre"/>
+                <xs:element name="apellido" type="longitudNombre" minOccurs="2" maxOccurs="2"/>
+                <xs:element name="dni" type="xs:string" minOccurs="0"/>
+                <xs:element name="edad" type="xs:integer" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="pos" type="xs:integer" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="jugadora">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="longitudNombre"/>
+                <xs:element name="apellido" type="longitudNombre" minOccurs="2" maxOccurs="2"/>
+                <xs:element name="dni" type="xs:string" minOccurs="0"/>
+                <xs:element name="edad" type="xs:integer" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="pos" type="posicion" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="longitudNombre">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="30"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="posicion">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="30"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
